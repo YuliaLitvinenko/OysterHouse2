@@ -78,7 +78,7 @@
 
 .header {
 	background-color: #fff;	
-	background-image: url(./images/header_fl.jpeg);	
+	background-image: url(./images/header_fl_2.jpg);	
 	background-position: center bottom;	
 	background-size: cover;
 	background-repeat: no-repeat;	
@@ -568,7 +568,7 @@ and (min-width: 769px) {
 }
 
 .section-order {
-	height: 1080px;
+	height: 1140px;
 	background-color: #81aed1;
 }
 
@@ -786,7 +786,7 @@ and (min-width: 769px) {
 and (min-width: 805px) {
 
 	.section-order {
-		height: 610px;
+		height: 640px;
 	}
 
 	.order-flexbox {
