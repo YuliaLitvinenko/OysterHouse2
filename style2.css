@@ -76,6 +76,12 @@
 	src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
+body {
+	background-color: #e6eff6;
+	font-weight: 100;
+	font-family: "OpenSans";
+}
+
 .header {
 	background-color: #fff;	
 	background-image: url(./images/header_fl_2.jpg);	
@@ -104,8 +110,6 @@
 }
 
 .header-title h1 {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: white;
 	font-size: 35px;
 	text-align: center;
@@ -143,7 +147,6 @@ and (min-width: 1025px) {
 
 .section-title {
 	font-weight: 600;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 25px;
 	text-align: center;
@@ -240,7 +243,6 @@ and (min-width: 1025px) {
 .ourproducts-flexbox__col3 h3 {				/*Название продукта на малом экране*/
 	display: block;
 	font-weight: 600;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	text-align: center;
@@ -260,8 +262,6 @@ and (min-width: 1025px) {
 	height: auto;
 	padding-top: 50px;
 	margin: auto;
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	text-align: justify;
@@ -269,8 +269,6 @@ and (min-width: 1025px) {
 
 .ourproducts-price {						/*Цена на малом экране*/
 	display: inline-block;
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	margin: auto;
@@ -280,7 +278,6 @@ and (min-width: 1025px) {
 
 .ourproducts-flexbox__col3 a {				/*Кнопка заказа*/
 	font-weight: 600;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 17px;
 	text-decoration: none;
@@ -330,8 +327,6 @@ and (min-width: 1024px) {
 		height: 70px;	
 		padding-top: 50px;
 		padding-left: 15px;
-		font-weight: 100;
-		font-family: "OpenSans";
 		color: black;
 		font-size: 17px;
 		text-align: left;
@@ -383,8 +378,6 @@ and (min-width: 1024px) {
 	}
 
 	.ourproducts-flexbox__col1 p {				/*Цена на большом экране*/
-		font-weight: 100;
-		font-family: "OpenSans";
 		color: black;
 		font-size: 15px;
 		text-align: left;
@@ -498,8 +491,6 @@ and (min-width: 1024px) {
 }
 
 .delivery_description {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	text-align: left;
@@ -591,8 +582,6 @@ and (min-width: 769px) {
 }
 
 .order-flexbox__form_text {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 20px;
 	text-align: left;
@@ -601,8 +590,6 @@ and (min-width: 769px) {
 }
 
 .form-input-contact {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;	
 	padding: 10px 20px;
@@ -621,8 +608,6 @@ and (min-width: 769px) {
 
 .form-input-message {
 	resize: none;
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;	
 	padding: 10px 20px;
@@ -640,7 +625,6 @@ and (min-width: 769px) {
 	border: none;
 	background-color: #fff;
 	font-weight: 600;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	margin: 10px 0px 10px 0px;
@@ -661,8 +645,6 @@ and (min-width: 769px) {
 	height: 31px;
 	padding: 10px;
 	background-color: #81aed1;
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
@@ -687,8 +669,6 @@ and (min-width: 769px) {
 }
 
 .form-input-PD {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: #a9a9a9;
 	font-size: 10px;
 	text-align: center;
@@ -700,8 +680,6 @@ and (min-width: 769px) {
 }
 
 .order-flexbox__or_text {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 20px;
 	text-align: center;
@@ -742,8 +720,6 @@ and (min-width: 769px) {
 }
 
 .order-flexbox__contacts_text {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 20px;
 	text-align: center;
@@ -752,8 +728,6 @@ and (min-width: 769px) {
 }
 
 .contacts-phone {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 15px;
 	text-align: center;
@@ -767,8 +741,6 @@ and (min-width: 769px) {
 }
 
 .contacts-hours {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: black;
 	font-size: 12px;
 	text-align: center;
@@ -807,8 +779,6 @@ and (min-width: 805px) {
 }
 
 .footer h5 {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: white;
 	font-size: 35px;
 	padding-top: 40px;
@@ -823,16 +793,12 @@ and (min-width: 805px) {
 }
 
 .footer-link {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: white;
 	text-decoration: underline;
 	font-size: 15px;
 }
 
 .footer-text {
-	font-weight: 100;
-	font-family: "OpenSans";
 	color: white;
 	font-size: 15px;
 	line-height: 30px;
