@@ -635,7 +635,7 @@ and (min-width: 769px) {
 }
 
 .form-input-button {
-	padding: 18px 20px 18px 0px;
+	padding: 18px 0px 18px 0px;
 	width: 290px;
 	border: none;
 	background-color: #fff;
@@ -686,15 +686,12 @@ and (min-width: 769px) {
 	}
 }
 
-.form-input-checkbox {
+.form-input-PD {
 	font-weight: 100;
 	font-family: "OpenSans";
 	color: #a9a9a9;
 	font-size: 10px;
-}
-
-.label {
-	margin-left: 10px;
+	text-align: center;
 }
 
 .order-flexbox__or {
@@ -713,7 +710,7 @@ and (min-width: 769px) {
 
 .order-flexbox__contacts {
 	background-color: #cddfed;
-	height: 420px;
+	height: 424px;
 	width: 370px;
 	position: relative;
 }
