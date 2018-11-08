@@ -84,7 +84,7 @@ body {
 
 .header {
 	background-color: #fff;	
-	background-image: url(./images/header_fl_2.jpg);	
+	background-image: url(./images/header_FL_small.jpg);	
 	background-position: center bottom;	
 	background-size: cover;
 	background-repeat: no-repeat;	
@@ -135,7 +135,7 @@ body {
 and (min-width: 1025px) {
 
 	.header {
-		background-image: url(./images/header_fl.jpeg);	
+		background-image: url(./images/header_FL_big.jpg);	
 	}
 }
 
@@ -257,7 +257,7 @@ and (min-width: 1025px) {
 }
 
 .ourproducts-text {							/*Описание продукта*/
-	display: inline-block;
+	display: block;
 	width: 80%; 
 	height: auto;
 	padding-top: 50px;
@@ -268,15 +268,17 @@ and (min-width: 1025px) {
 }
 
 .ourproducts-price {						/*Цена на малом экране*/
-	display: inline-block;
+	display: block;
 	color: black;
 	font-size: 15px;
+	text-align: center;
 	margin: auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 .ourproducts-flexbox__col3 a {				/*Кнопка заказа*/
+	display: block;
 	font-weight: 600;
 	color: black;
 	font-size: 17px;
@@ -286,7 +288,7 @@ and (min-width: 1025px) {
 	padding: 15px 60px 15px 60px;
 	width: 80px;
 	margin: auto;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -699,7 +701,7 @@ and (min-width: 769px) {
 	position: absolute;
 	width: 125px;
 	height: 125px;
-	background-image: url(./images/seaweed_4.svg);
+	background-image: url(./images/seaweed_1.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	bottom: 0px;
@@ -712,7 +714,7 @@ and (min-width: 769px) {
 	position: absolute;
 	width: 70px;
 	height: 70px;
-	background-image: url(./images/seaweed_5.svg);
+	background-image: url(./images/seaweed_2.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	bottom: 0px;
@@ -769,7 +771,7 @@ and (min-width: 805px) {
 
 .footer {
 	background-color: #000;
-	background-image: url(./images/footer_fl.jpg);
+	background-image: url(./images/footer_FL_small.jpg);
 	background-position: left bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -809,6 +811,6 @@ and (min-width: 805px) {
 and (min-width: 1025px) {
 
 	.footer {
-		background-image: url(./images/footer_fl.jpg);	
+		background-image: url(./images/footer_FL_big.jpg);	
 	}
 }

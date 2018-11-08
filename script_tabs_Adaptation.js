@@ -1,7 +1,7 @@
 function setup_for_width(mql) {
 	if (mql.matches) {
-		document.getElementById("tab1").innerText = '';
-		document.getElementById("tab2").innerText = '';
+		document.getElementById("tab1").innerHTML = '';
+		document.getElementById("tab2").innerHTML = '<img class="tab_image" src="./images/oyster_i.svg" alt="" height=60px width=60px/>';
 		document.getElementById("tab3").innerHTML = '<img class="tab_image" src="./images/scallop.svg" alt="" height=60px width=60px/>';
 		document.getElementById("tab4").innerHTML = '<img class="tab_image" src="./images/crab.svg" alt="" height=60px width=60px/>';
 	} else {

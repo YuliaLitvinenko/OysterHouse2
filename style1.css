@@ -130,7 +130,7 @@ h3 {
 	content: "";
 	width: 25px;
 	height: 25px;
-	background-image: url(./info.svg);
+	background-image: url(./images/info.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -142,7 +142,7 @@ h3 {
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
-.main-container {											/*Вся видимая цветная часть страницы #002F6C*/
+.main-container {											/*Вся видимая цветная часть страницы*/
 	background-color: #00487F;
 	height: 100vh;
 	width: 100%;
@@ -173,8 +173,8 @@ h3 {
 .FL-container {												/*Вкладки с типами клиентов*/
 	top: 33.3333333%;
 	background-color: #b3cee3;
-	background-image: url('./images_test/FL/1.jpg');
-	background-position: center bottom;
+	background-image: url(./images/FL_mainpage_small.jpg);
+	background-position: center top;
 	transition: top 0.5s ease-in-out 0.2s;
 	z-index: 4;
 }
@@ -182,8 +182,8 @@ h3 {
 .YL-container {												/*Вкладки с типами клиентов*/
 	top: 66.6666667%;
 	background-color: #9abeda;
-	background-image: url('./images_test/YL/2.jpg');
-	background-position: center bottom;
+	background-image: url(./images/YL_mainpage_small.jpg);
+	background-position: center top;
 	transition: top 0.5s ease-in-out 0.2s;
 	z-index: 7;
 }
@@ -258,11 +258,11 @@ and (min-width: 1025px) {
 	}
 
 	.FL-container {
-		background-image: url(./images/header_fl.jpeg);
+		background-image: url(./images/FL_mainpage_big.jpg);
 	}
 
 	.YL-container {
-		background-image: url(./images/footer_fl.jpg);
+		background-image: url(./images/YL_mainpage_big.jpg);
 	}
 
 	.h2 {
@@ -293,7 +293,7 @@ and (min-width: 1025px) {
 		content: "";
 		width: 20px;
 		height: 20px;
-		background-image: url(./anchor.svg);
+		background-image: url(./images/anchor.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		position: absolute;
@@ -307,7 +307,7 @@ and (min-width: 1025px) {
 		content: "";
 		width: 20px;
 		height: 20px;
-		background-image: url(./anchor.svg);
+		background-image: url(./images/anchor.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		position: absolute;
