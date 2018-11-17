@@ -1,15 +1,14 @@
 const formButton = document.getElementById('button');
 
-formButton.onclick = function() {
+formButton.onclick = function(event) {
 	event.preventDefault();
 	const phone = document.getElementById('phone');
 	const email = document.getElementById('email');
 	const message = document.getElementById('formMessage');
-	const button = document.getElementById('button');
 	let classPhone = phone.classList;
 	let classEmail = email.classList;
 	let classMessage = message.classList;
-	let classButton = button.classList;
+	let classButton = formButton.classList;
 		if (phone.value === "" && email.value === "") {
 			classPhone.add ("alert");
 			classEmail.add ("alert");
