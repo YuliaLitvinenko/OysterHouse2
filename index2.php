@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="eric-meyer-reset.min_.css">
   	<link rel="stylesheet" type="text/css" href="normalize.css">
-  	<link rel="stylesheet" type="text/css" href="style3.css">
+  	<link rel="stylesheet" type="text/css" href="style2.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="script_tabs_Smallscreen.js"></script>
   	<script src="script_tabs_Largescreen.js"></script>
@@ -17,7 +17,7 @@
 
 	<header class="header">
 		<div class="header-title">
-			<h1>Я хочу заказывать морские деликатесы для ресторана</h1>
+			<h1>Я хочу сделать заказ домой</h1>
 		</div>
 	</header>
  
@@ -94,6 +94,53 @@
 
 				</div>
 
+		</section>
+
+		<section class="section-delivery">
+
+			<h2 class="section-title">О доставке</h2>
+
+			<div class="delivery-flexbox">
+
+				<ul class="delivery-flexbox__images">
+
+					<li class="delivery-flexbox__images_steps">
+						<div class="delivery-imagewrap">
+							<img class="delivery_image" src="./images/smartphone.svg" alt="" height="60px">
+						</div>
+					</li>
+
+					<li class="delivery-flexbox__images_steps">
+						<div class="delivery-imagewrap">
+							<img class="delivery_image" src="./images/sea-waves.svg" alt="" height="60px">
+						</div>
+					</li>
+
+					<li class="delivery-flexbox__images_steps">
+						<div class="delivery-imagewrap">
+							<img class="delivery_image" src="./images/aeroplane.svg" alt="" height="60px">
+						</div>
+					</li>
+
+				</ul>
+
+				<ul class="delivery-flexbox__description">
+
+					<li class="delivery-flexbox__description_steps">
+						<p class="delivery_description">Строка 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</li>
+
+					<li class="delivery-flexbox__description_steps">
+						<p class="delivery_description">Строка 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</li>
+
+					<li class="delivery-flexbox__description_steps">
+						<p class="delivery_description">Строка 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+					</li>
+
+				</ul> 
+
+			</div>
 
 		</section>
 
@@ -108,12 +155,13 @@
 				<div class="order-flexbox__form"> 
 					<p class="order-flexbox__form_text">Оставьте нам свои контакты</p>
 						<form id="form">
-							<input class="form-input-contact" type="text" name="Name" placeholder="Как Вас зовут?" id="name">
-							<input class="form-input-contact" type="text" name="Phone" placeholder="Ваш номер телефона" id="phone">
-							<input class="form-input-contact" type="text" name="Email" placeholder="или Email" id="email">
-							<textarea class="form-input-message" type="text" name="Message" placeholder="Пожелания или вопросы" id="message"></textarea>
-							<button class="form-input-button" id="button" name="submit">Отправить</button>
+							<input class="form-input-contact" type="text" name="name" placeholder="Как Вас зовут?" id="name">
+							<input class="form-input-contact" type="text" name="phone" placeholder="Ваш номер телефона" id="phone">
+							<input class="form-input-contact" type="text" name="email" placeholder="или Email" id="email">
+							<textarea class="form-input-message" type="text" name="message" placeholder="Пожелания или вопросы" id="message"></textarea>
+							<input class="form-input-button" type="button" value="Отправить сообщение" id="button">
 							<div class="form-input-PD">Нажимая на кнопку, вы даете согласие на обработку персональных данных</div>
+							<div class="result"></div>
 							<div class="form-message_nonsubmitted" id="formMessage">
 								<p>Ваше сообщение отправлено, и мы скоро с вами свяжемся!</p>
 							</div>
@@ -147,6 +195,7 @@
 		<script type="text/javascript" src="script_tabs_Adaptation.js"></script>
 		<script type="text/javascript" src="script_phonemask.js"></script>
 		<script type="text/javascript" src="script_formvalidation.js"></script>
+		<script type="text/javascript" src="script_php.js"></script>
 
 	</footer>
 
