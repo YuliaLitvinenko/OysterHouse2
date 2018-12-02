@@ -2,7 +2,7 @@
 if (!empty($_POST['phone']) OR !empty($_POST['email'])){
   
  $headers = 'From: Oyster House' . "\r\n" .
-    'Reply-To: julia-litvinenko@yandex.ru' . "\r\n" .
+    'Reply-To: oysterhouse@inbox.ru' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
              
   $theme = 'Новое сообщение с сайта';
@@ -15,7 +15,7 @@ if (!empty($_POST['phone']) OR !empty($_POST['email'])){
   $letter .= "\r\n";
   $letter .='Сообщение: '.$_POST['message'].'';
   
-  if (mail('julia-litvinenko@yandex.ru', $theme, $letter, $headers)){
+  if (mail('oysterhouse@inbox.ru', $theme, $letter, $headers)){
     echo '<span class="form-message_submitted">' . "Ваше сообщение отправлено, и мы скоро с вами свяжемся!" . '</span>';
   } else {
     echo "Ошибка при отправке!";

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Oyster House</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Свежие морские деликатесы дома">
 	<link rel="stylesheet" type="text/css" href="eric-meyer-reset.min_.css">
   	<link rel="stylesheet" type="text/css" href="normalize.css">
   	<link rel="stylesheet" type="text/css" href="style2.css">
@@ -40,20 +41,20 @@
 
 						<div class="ourproducts-flexbox__col1">
 							<div id="t1">
-								<img src="./images/oyster_h.jpg" hsceight=200px width=200px alt="">
-								<p> <strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/oyster_h.jpg" height=200px width=200px alt="Хасанские устрицы">
+								<p> <strong>Цена:</strong> 1500 рублей за 1 кг (6-7 шт.)</p>
 							</div>
 							<div id="t2">
-								<img src="./images/oyster_i.jpg" hsceight=200px width=200px alt="">
-								<p> <strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/oyster_i.jpg" height=200px width=200px alt="Императорские устрицы">
+								<p> <strong>Цена:</strong> 1500 рублей за 1 кг (6-7 шт.)</p>
 							</div>
 							<div id="t3">								
-								<img src="./images/scallop.jpg" hsceight=200px width=200px alt="">
-								<p> <strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/scallop.jpg" height=200px width=200px alt="Морской гребешок">
+								<p> <strong>Цена:</strong> 2000 рублей за 1 кг (4-5 шт.)</p>
 							</div>
 							<div id="t4">
-								<img src="./images/crab.jpg" hsceight=200px width=200px alt="">
-								<p> <strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/crab.jpg" height=200px width=200px alt="Фаланги краба">
+								<p> <strong>Цена:</strong> 3800 рублей за 1 кг</p>
 							</div>
 						</div>
 
@@ -62,30 +63,30 @@
 						<div class="ourproducts-flexbox__col3">
 							<div class="ourproducts-flexbox__col3--mobflex" id="t1">
 								<h3>Хасанские устрицы</h3>
-								<img src="./images/oyster_h.jpg" height=200px width=200px alt="">
-								<p class="ourproducts-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="ourproducts-price"><strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/oyster_h.jpg" height=200px width=200px alt="Хасанские устрицы">
+								<p class="ourproducts-text">Красивая волнистая раковина хасанской устрицы &ndash; ее характерная особенность. Это глубоководная устрица из акватории Владивостока, более сложная в добыче, чем устрицы из прибрежных вод. Морские течения, глубина определяют ее вкус &ndash; слабосоленый, сладковатый. Эти устрицы обладают плотной, мясистой текстурой.</p>
+								<p class="ourproducts-price h"><strong>Цена:</strong> 1500 рублей за 1 кг (6-7 шт.)</p>
 								<a href="#order">Заказать</a>
 							</div>
 							<div id="t2">
 								<h3>Императорские устрицы</h3>
-								<img src="./images/oyster_i.jpg" height=200px width=200px alt="">
-								<p class="ourproducts-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="ourproducts-price"><strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/oyster_i.jpg" height=200px width=200px alt="Императорские устрицы">
+								<p class="ourproducts-text">Императорские устрицы &ndash; крупные и продолговатые. Это распространенный на Дальнем Востоке вид устриц, они обитают на разной глубине большими колониями. Императорские устрицы имеют классический солоноватый вкус, аромат моря и мягкую текстуру.</p>
+								<p class="ourproducts-price other"><strong>Цена:</strong> 1500 рублей за 1 кг (6-7 шт.)</p>
 								<a href="#order">Заказать</a>
 							</div>
 							<div id="t3">
 								<h3>Гребешок</h3>
-								<img src="./images/scallop.jpg" height=200px width=200px alt="">
-								<p class="ourproducts-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="ourproducts-price"><strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/scallop.jpg" height=200px width=200px alt="Морской гребешок">
+								<p class="ourproducts-text">Дальневосточный гребешок &ndash; морепродукт, богатый белком и микроэлементами. Его мясо нежное, сладковатое на вкус и легкое в приготовлении. Гребешок приедет в Москву в свежем, не замороженном виде, чтобы вы могли получить максимум пользы и удовольствия.</p>
+								<p class="ourproducts-price other"><strong>Цена:</strong> 2000 рублей за 1 кг (4-5 шт.)</p>
 								<a href="#order">Заказать</a>
 							</div>
 							<div id="t4">
 								<h3>Краб</h3>
-								<img src="./images/crab.jpg" height=200px width=200px alt="">
-								<p class="ourproducts-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="ourproducts-price"><strong>Цена:</strong> 1000 рублей за 10 шт.</p>
+								<img src="./images/crab.jpg" height=200px width=200px alt="Фаланги краба">
+								<p class="ourproducts-text">Камчатский краб &ndash; самый крупный вид ракообразных Дальнего Востока и самый популярный деликатес. Его часто называют Королевским крабом. Способ приготовления на удивление прост, а вкус поражает своей насыщенностью.</p>
+								<p class="ourproducts-price other"><strong>Цена:</strong> 3800 рублей за 1 кг</p>
 								<a href="#order">Заказать</a>
 							</div>
 						</div>
@@ -127,15 +128,15 @@
 				<ul class="delivery-flexbox__description">
 
 					<li class="delivery-flexbox__description_steps">
-						<p class="delivery_description">Строка 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<p class="delivery_description">Сделайте заказ, позвонив или написав нам. Мы проконсультируем и поможем с выбором!</p>
 					</li>
 
 					<li class="delivery-flexbox__description_steps">
-						<p class="delivery_description">Строка 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<p class="delivery_description">Уже на следующий день во Владивостоке опытные водолазы отправятся за добычей вашего деликатеса в море.</p>
 					</li>
 
 					<li class="delivery-flexbox__description_steps">
-						<p class="delivery_description">Строка 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+						<p class="delivery_description">В течение 24 часов после вылова ваш заказ будет доставлен к вам на стол.</p></div>
 					</li>
 
 				</ul> 
@@ -174,9 +175,9 @@
 
 				<div class="order-flexbox__contacts">
 					<p class="order-flexbox__contacts_text">Свяжитесь с нами</p>
-					<p class="contacts-phone"><a class="link" href="tel:"+79031639036">8 903 163 90 36</a></p>
+					<p class="contacts-phone"><a class="link" href="tel:"+79165997179">8 916 599 71 79</a></p>
 					<p class="contacts-hours">(9:00 – 21:00, без выходных)</p>
-					<p class="picture"><a href="https://wa.me/79031639036"><img src="./images/whatsapp-logo.svg" height="40px"></a></p>
+					<p class="picture"><a href="https://wa.me/79165997179"><img src="./images/whatsapp-logo.svg" height="40px"></a></p>
 				</div>
 
 			</div>

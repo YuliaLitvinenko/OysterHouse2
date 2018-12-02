@@ -140,7 +140,7 @@ and (min-width: 1025px) {
 }
 
 .section-ourproducts {
-	height: 970px;
+	height: 1000px;
 	background-color: #fff;
 	overflow: hidden;
 }
@@ -272,6 +272,7 @@ and (min-width: 1025px) {
 	color: black;
 	font-size: 15px;
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .ourproducts-price {						/*Цена на малом экране*/
@@ -281,6 +282,14 @@ and (min-width: 1025px) {
 	text-align: center;
 	margin: auto;
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.h {										/*Цена на малом экране_про хасанскую*/
+	padding-bottom: 30px;
+}
+
+.other {									/*Цена на малом экране_про остальные продукты*/
 	padding-bottom: 50px;
 }
 
@@ -503,6 +512,7 @@ and (min-width: 1024px) {
 	color: black;
 	font-size: 15px;
 	text-align: left;
+	line-height: 1.5;
 }
 
 @media only screen 
