@@ -158,7 +158,7 @@
 
 				<div class="order-flexbox__contacts">
 					<p class="order-flexbox__contacts_text">Свяжитесь с нами</p>
-					<p class="contacts-phone"><a class="link" href="tel:"+79165997179">8 916 599 71 79</a></p>
+					<p class="contacts-phone"><a class="link" href="tel:"+79165997179>8 916 599 71 79</a></p>
 					<p class="contacts-hours">(9:00 – 21:00, без выходных)</p>
 					<p class="picture"><a href="https://wa.me/79165997179"><img src="./images/whatsapp-logo.svg" height="40px"></a></p>
 				</div>
@@ -174,7 +174,7 @@
 		<h5>Oyster House</h5>
 		<div><a href="https://www.instagram.com/oystersinmoscow"><img class="footer__instagram-logo" src="./images/instagram.svg" height="40px"></a></div>
 		<a href="" class="footer-link">Сертификат качества</a>
-		<p class="footer-text">Владивосток - Москва <br>2018</p>
+		<p class="footer-text">Владивосток - Москва <br>2019</p>
 	
 		<script type="text/javascript" src="script_tabs_Adaptation.js"></script>
 		<script type="text/javascript" src="script_phonemask.js"></script>
